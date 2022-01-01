@@ -14,11 +14,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       CRM LEAD
- * Plugin URI:        https://google.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin URI:        mailto:lovedeep5.abh@gmail.com
+ * Description:       Machine test plugin, [crm_lead_form] This shortcode will display the form on any page or post.
  * Version:           1.0.0
  * Author:            Lovedeep
- * Author URI:        https://google.com
+ * Author URI:        mailto:lovedeep5.abh@gmail.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       ld-crm-lead
