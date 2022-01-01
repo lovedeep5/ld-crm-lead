@@ -1,0 +1,113 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+ .ld-lead-list-wrapper {
+
+     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    position: relative;
+    font-size: 1em;
+    transition: all 0.5s;
+ }
+ .ld-lead-list-wrapper table {
+     display: none;
+ }
+.ld-lead-list-wrapper thead{
+    font-weight: 700;
+}
+ .ld-lead-list-wrapper tr{
+     background-color: whitesmoke;
+ }
+ .ld-lead-list-wrapper tr:hover{
+     background-color: wheat;
+     border: 1px solid rgba(0,0,0,0.5);
+ }
+ .ld-lead-list-wrapper tr td{
+     padding: 5px;
+     width: 11.11%;
+ }
+ .ld-lead-list-wrapper button {
+    border: none;
+    color: white;
+    background-color: slateblue;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 40px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.ld-lead-list-wrapper button:hover{
+    background-color: red;
+}
+ .ld-lead-list-wrapper .ld-remove-lead-confirm{
+     background-color: red;
+     color: white;
+ }
+
+ .update-lead-form {
+     display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(22,22,22,0.6);
+    z-index: 99999;
+    font-family: 'Jost', sans-serif;
+    overflow: scroll;
+}
+.ld-form-wrapper {
+    color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.update-lead-form label{
+    display: block;
+}
+.update-lead-form input, .update-lead-form select, .update-lead-form textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+.update-lead-form button{
+    background: blueviolet;
+    color: #fff;
+    border: none;
+    min-height: 46px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.update-lead-form span.close-button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background: blue;
+    min-height: 30px;
+    display: inline-flex;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.update-lead-form span.close-button:hover{
+    opacity: 0.6;
+}
+ @media(min-width: 992px){
+     .ld-lead-list-wrapper table{
+         display: block;
+     }
+ }

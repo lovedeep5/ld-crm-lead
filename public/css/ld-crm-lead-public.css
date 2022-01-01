@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.ld-form-wrapper * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+}
+.ld-form-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    color: rgba(22,22,22,0.9);
+}
+.ld-form-wrapper label{
+    display: block;
+    padding-bottom: 5px;
+    color: rgba(22,22,22,0.9);
+}
+.ld-form-wrapper label em{
+    color: tomato;
+}
+.ld-form-wrapper .input-container{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ld-form-wrapper .input-container input, 
+.ld-form-wrapper .input-container textarea, 
+.ld-form-wrapper .input-container select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    color: rgba(22,22,22,0.9);
+}
+
+.ld-form-wrapper .submit-container button{
+    background-color: slateblue;
+    color: white;
+    padding: 0px 15px;
+    display: inline-flex;
+    min-height: 46px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.050em;
+}
+.ld-form-wrapper .ld-lead-result {
+    display: none;
+}
+.ld-form-wrapper .ld-lead-result.result {
+    display: block;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    font-size: 18px;
+    color: #000;
+    border: 2px solid red;
+    margin-top: 5px;
+}
+.ld-form-wrapper .loading-icon {
+    display: none;
+    max-width: 100px;
+}
